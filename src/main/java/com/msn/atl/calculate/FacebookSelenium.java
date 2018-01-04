@@ -16,7 +16,6 @@ public class FacebookSelenium {
 		
 		System.setProperty("webdriver.gecko.driver", "C:\\Softwares\\MIsc\\geckodriver-v0.19.0-win64\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
-		System.out.println("Started");
 		driver.get("https://www.facebook.com");
 		driver.manage().window().maximize();
 		
