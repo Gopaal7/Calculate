@@ -48,7 +48,7 @@ public class FacebookSelenium {
 		driver.findElement(By.xpath("//*[@id=\'reg_pages_msg\']/a")).click();
 		
 		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		waitPeriod(4000);
+		waitPeriod(5000);
 		
 		
 		driver.navigate().back();
