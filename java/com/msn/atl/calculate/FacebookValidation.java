@@ -14,6 +14,7 @@ public class FacebookValidation {
 	public void test() {
 		WebDriver driver = new FirefoxDriver();
 		System.out.println("Start date");
+		System.out.println("Start date");
 		driver.get("http://facebook.com");
 		driver.manage().window().maximize();
 	}
