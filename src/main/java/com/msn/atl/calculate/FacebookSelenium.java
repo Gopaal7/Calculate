@@ -17,7 +17,8 @@ public class FacebookSelenium {
 		System.setProperty("webdriver.gecko.driver", "C:\\Softwares\\MIsc\\geckodriver-v0.19.0-win64\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com");
-		driver.manage().window().maximize();
+		driver.manage().window().maximize
+			System.out.println("Startedaaa");
 		
 		//driver.findElement(By.xpath("//*[@id=\'email\']")).sendKeys("Gopal");
 		//driver.findElement(By.xpath("//*[@id=\'pass\']")).sendKeys("Gopal");
